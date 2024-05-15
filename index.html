@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<style>
+     body {
+          background-color: rgb(255, 255, 255);
+     }
+
+     .h1 {
+          margin-left: 10%;
+          font-size: 41px;
+     }
+
+     img {
+          width: 440px;                                              
+          height: 350px;
+          margin-top: 9%;
+          margin-left: 8%;
+     }
+
+     button {
+          position: relative;
+          top: 60px;
+          left: 10%;
+          width: 80px;
+          height: 30px;
+          border: 2px solid rgb(0, 0, 0);
+          font-size: larger;
+          font-weight: 600;
+
+     }
+
+     button:hover {
+          background-color: rgb(131, 116, 116);
+     }
+   
+</style>
+
+<body>
+     <h1 class="h1">The PIcture Gamezz</h1>
+
+     <img src="https://th.bing.com/th/id/OIP.FyzRV-9XLHJzO13h7tmqMwHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7" id="img">
+    
+
+     <div class="buttons">
+          <div class="container">
+               <button onclick="lion()">Lion</button>
+               <button onclick="zebra()">Zebra</button>
+               <button onclick="girffe()">Girffe</button>
+               <button onclick="fox()">fox</button>
+               <button onclick="Reset()">Reset</button>
+          </div>
+          
+
+    
+  
+
+
+
+
+          <script>
+               function lion() {
+                    var image = document.getElementById('img')
+                    image = img.src = "lion.jpeg"
+               }
+               function zebra() {
+                    var image = document.getElementById('img')
+                    image = img.src = 'zebra.jpeg'
+               }
+               function girffe() {
+                    var image = document.getElementById('img')
+                    image = img.src = 'jar.jpeg'
+               }
+
+               function fox() {
+                    var image = document.getElementById('img')
+                    image = img.src = 'fox.jpeg'
+               }
+               function Reset() {
+                    var image = document.getElementById('img')
+                    image = img.src = 'https://th.bing.com/th/id/OIP.FyzRV-9XLHJzO13h7tmqMwHaHa?w=177&h=180&c=7&r=0&o=5&pid=1.7'
+               }
+
+
+
+
+
+          </script>
+</body>
+
+</html>
